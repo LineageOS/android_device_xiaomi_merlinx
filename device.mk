@@ -22,5 +22,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# SKU
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/build_ss_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_ss_vendor.prop
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/merlinx/merlinx-vendor.mk)
