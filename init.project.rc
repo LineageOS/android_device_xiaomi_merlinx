@@ -1,6 +1,4 @@
 # MTK project .rc configure
-import /vendor/odm/etc/${ro.boot.product.hardware.sku}/vendor.nxp.hardware.nfc@2.0-service.rc
-import /vendor/odm/etc/${ro.boot.product.hardware.sku}/android.hardware.nfc@1.0-service.rc
 import /vendor/odm/etc/${ro.boot.product.hardware.sku}/vendor.microtrust.hardware.se@1.0-service.rc
 
 on init
@@ -118,3 +116,12 @@ on boot
     setprop vendor.debug.camera.enableMetaPending 0
     setprop vendor.debug.camera.enableMetaMerge 0
 
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+    class hal
+    user nfc
+    group nfc
+    disabled
+    override
+
+on property:ro.boot.product.hardware.sku=merlinnfc
+    start vendor.nfc_hal_service
