@@ -256,6 +256,10 @@ vendor/bin/charon
 vendor/bin/starter
 vendor/bin/stroke
 
+# Secure Element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/odm/etc/merlinnfc/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/merlinnfc/android.hardware.secure_element@1.2-service-mediatek.rc
+
 # Sensors
 vendor/etc/pm_test_item_config.xml
 vendor/data/misc/pdc.txt
