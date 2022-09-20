@@ -5,18 +5,6 @@ vendor/lib/libaal_cust.so
 vendor/lib64/libaal_cust.so
 
 # Audio
-vendor/lib/libaudiocompensationfilterc.so
-vendor/lib/libaudiocompensationfilter_vendor.so
-vendor/lib/libaudiocustparam_vendor.so
-vendor/lib/librt_extamp_intf.so
-vendor/lib64/libaudiocompensationfilterc.so
-vendor/lib64/libaudiocompensationfilter_vendor.so
-vendor/lib64/libaudiocustparam_vendor.so
-vendor/lib64/librt_extamp_intf.so
-vendor/lib/hw/audio.primary.mt6768.so
-vendor/lib64/hw/audio.primary.mt6768.so
-vendor/etc/smartpa_param/rt5509_param
-vendor/etc/smartpa_param/rt_device.xml
 vendor/etc/audio_param/AudioParamOptions.xml
 vendor/etc/audio_param/HpImpedance_AudioParam.xml
 vendor/etc/audio_param/PlaybackACF_AudioParam.xml
@@ -57,8 +45,33 @@ vendor/etc/audio_param_ce/Speech_AudioParam.xml
 vendor/etc/audio_param_ce/VoIPVol_AudioParam.xml
 vendor/etc/audio_param_ce/VoIPv2DMNR_AudioParam.xml
 vendor/etc/audio_param_ce/VoIPv2_AudioParam.xml
+vendor/etc/smartpa_param/rt5509_param
+vendor/etc/smartpa_param/rt_device.xml
+vendor/lib/hw/audio.primary.mt6768.so
+vendor/lib/libaudiocompensationfilter_vendor.so
+vendor/lib/libaudiocompensationfilterc.so
+vendor/lib/libaudiocustparam_vendor.so
+vendor/lib/librt_extamp_intf.so
+vendor/lib64/hw/audio.primary.mt6768.so
+vendor/lib64/libaudiocompensationfilter_vendor.so
+vendor/lib64/libaudiocompensationfilterc.so
+vendor/lib64/libaudiocustparam_vendor.so
+vendor/lib64/librt_extamp_intf.so
 
 # Camera
+vendor/bin/hw/camerahalserver
+vendor/bin/CFR_para2_J15_Macro_2M_v515.bin
+vendor/bin/CFR_para2_J15_UW_v504.bin
+vendor/bin/LDC_packdata_xiaomi_J15_Ofilm_3264x2448_v2_20200305.dat
+vendor/bin/LDC_packdata_xiaomi_J15_Sunny_3264x2448_v2_20200305.dat
+vendor/bin/libccu_ov13b10_mipi_raw.dm
+vendor/bin/libccu_ov13b10_mipi_raw.pm
+vendor/etc/camera/model/bokeh_model/cache_data
+vendor/etc/camera/model/bokeh_model/model_mdl_cache
+vendor/etc/camera/model/bokeh_model/segment_model
+vendor/etc/camera/model/rt_model/score/segment_model
+vendor/etc/camera/merlin_goldResult.bin
+vendor/etc/camera/vidhance_calibration
 vendor/lib/gc02m1_macro_mipi_raw_tuning.so
 vendor/lib/gc02m1_macro_sunny_mipi_raw_tuning.so
 vendor/lib/gc02m1_mipi_raw_tuning.so
@@ -71,36 +84,8 @@ vendor/lib/ov2680_sunny_mipi_raw_tuning.so
 vendor/lib/s5k4h7yx_mipi_raw_tuning.so
 vendor/lib/s5kgm1sp_mipi_raw_tuning.so
 vendor/lib/s5kgm1sp_sunny_mipi_raw_tuning.so
-vendor/lib64/libwa_depth.so
-vendor/lib64/libwa_refocus.so
-vendor/lib64/libwa_rtdof.so
-vendor/lib64/libfeature.stereo.provider.so
-vendor/lib64/libfeature.vsdof.hal.so
-vendor/lib64/libfeature_eis.so
-vendor/lib64/libfeature_fsc.so
-vendor/lib64/libfeature_lmv.so
-vendor/lib64/libaltek_cfr.so
-vendor/lib64/libaltek_ldc_cp.so
-vendor/lib64/libaltek_ldc_preview.so
-vendor/lib64/libcam.feature_utils.so
-vendor/lib64/libcam.hal3a.log.so
-vendor/lib64/libcam.hal3a.v3.dng.so
-vendor/lib64/libcam.hal3a.v3.so
-vendor/lib64/libcam.halsensor.so
-vendor/lib64/libcam.vhdr.so
-vendor/lib64/libcamalgo.n3d.so
-vendor/lib64/libcamalgo.vsf.so
-vendor/lib64/libcameracustom.eis.so
-vendor/lib64/libcameracustom.plugin.so
-vendor/lib64/libcameracustom.so
-vendor/lib64/libSonyIMX230PdafLibrary.so
-vendor/lib64/libSonyIMX230PdafLibraryWrapper.so
-vendor/lib64/libSonyIMX338PdafLibrary.so
-vendor/lib64/libSonyIMX338PdafLibraryWrapper.so
-vendor/lib64/libSonyIMX386PdafLibrary.so
-vendor/lib64/libSonyIMX386PdafLibraryWrapper.so
-vendor/lib64/libSonyIMX519PdafLibrary.so
-vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
+vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/gc02m1_macro_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_macro_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc02m1_macro_mipi_raw_india_tuning.so
@@ -117,6 +102,71 @@ vendor/lib64/gc02m1_sunny_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_sunny_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc02m1_sunny_mipi_raw_india_tuning.so
 vendor/lib64/gc02m1_sunny_mipi_raw_tuning.so
+vendor/lib64/libSonyIMX230PdafLibrary.so
+vendor/lib64/libSonyIMX230PdafLibraryWrapper.so
+vendor/lib64/libSonyIMX338PdafLibrary.so
+vendor/lib64/libSonyIMX338PdafLibraryWrapper.so
+vendor/lib64/libSonyIMX386PdafLibrary.so
+vendor/lib64/libSonyIMX386PdafLibraryWrapper.so
+vendor/lib64/libSonyIMX519PdafLibrary.so
+vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
+vendor/lib64/libaltek_cfr.so
+vendor/lib64/libaltek_ldc_cp.so
+vendor/lib64/libaltek_ldc_preview.so
+vendor/lib64/libarcsoft_facebeauty.so
+vendor/lib64/libarcsoft_hdr.so
+vendor/lib64/libarcsoft_super_night.so
+vendor/lib64/libarcsoft_supernight.so
+vendor/lib64/libcam.feature_utils.so
+vendor/lib64/libcam.hal3a.log.so
+vendor/lib64/libcam.hal3a.v3.dng.so
+vendor/lib64/libcam.hal3a.v3.so
+vendor/lib64/libcam.halsensor.so
+vendor/lib64/libcam.vhdr.so
+vendor/lib64/libcamalgo.n3d.so
+vendor/lib64/libcamalgo.vsf.so
+vendor/lib64/libcameracustom.eis.so
+vendor/lib64/libcameracustom.plugin.so
+vendor/lib64/libcameracustom.so
+vendor/lib64/libfeature.stereo.provider.so
+vendor/lib64/libfeature.vsdof.hal.so
+vendor/lib64/libfeature_eis.so
+vendor/lib64/libfeature_fsc.so
+vendor/lib64/libfeature_lmv.so
+vendor/lib64/libmi_watermark.so
+vendor/lib64/libmtkcam.featurepipe.capture.so
+vendor/lib64/libmtkcam.featurepipe.depthmap.so
+vendor/lib64/libmtkcam.featurepipe.streaming.so
+vendor/lib64/libmtkcam.logicalmodule.so
+vendor/lib64/libmtkcam_3rdparty.customer.so
+vendor/lib64/libmtkcam_3rdparty.mtk.so
+vendor/lib64/libmtkcam_3rdparty.so
+vendor/lib64/libmtkcam_3rdparty.vidhance.so
+vendor/lib64/libmtkcam_device3_app.so
+vendor/lib64/libmtkcam_device3_hal.so
+vendor/lib64/libmtkcam_device3_utils.so
+vendor/lib64/libmtkcam_dpe.so
+vendor/lib64/libmtkcam_featurepolicy.so
+vendor/lib64/libmtkcam_hwnode.so
+vendor/lib64/libmtkcam_hwutils.so
+vendor/lib64/libmtkcam_metadata.so
+vendor/lib64/libmtkcam_metastore.so
+vendor/lib64/libmtkcam_pipeline.so
+vendor/lib64/libmtkcam_pipelinemodel.so
+vendor/lib64/libmtkcam_pipelinemodel_capture.so
+vendor/lib64/libmtkcam_pipelinemodel_isp.so
+vendor/lib64/libmtkcam_pipelinemodel_session.so
+vendor/lib64/libmtkcam_pipelinemodel_utils.so
+vendor/lib64/libmtkcam_pipelinemodel_zsl.so
+vendor/lib64/libmtkcam_pipelinepolicy-smvr.so
+vendor/lib64/libmtkcam_pipelinepolicy.so
+vendor/lib64/libmtkcam_prerelease.so
+vendor/lib64/libmtkcam_streamutils.so
+vendor/lib64/libmtkcam_synchelper.so
+vendor/lib64/libmtkcam_tuning_utils.so
+vendor/lib64/libwa_depth.so
+vendor/lib64/libwa_refocus.so
+vendor/lib64/libwa_rtdof.so
 vendor/lib64/ov13b10_mipi_raw_IdxMgr.so
 vendor/lib64/ov13b10_mipi_raw_india_IdxMgr.so
 vendor/lib64/ov13b10_mipi_raw_india_tuning.so
@@ -153,56 +203,6 @@ vendor/lib64/s5kgm1sp_sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgm1sp_sunny_mipi_raw_india_IdxMgr.so
 vendor/lib64/s5kgm1sp_sunny_mipi_raw_india_tuning.so
 vendor/lib64/s5kgm1sp_sunny_mipi_raw_tuning.so
-vendor/lib64/libarcsoft_facebeauty.so
-vendor/lib64/libarcsoft_hdr.so
-vendor/lib64/libarcsoft_supernight.so
-vendor/lib64/libarcsoft_super_night.so
-vendor/lib64/libmtkcam.featurepipe.capture.so
-vendor/lib64/libmtkcam.featurepipe.depthmap.so
-vendor/lib64/libmtkcam.featurepipe.streaming.so
-vendor/lib64/libmtkcam.logicalmodule.so
-vendor/lib64/libmtkcam_3rdparty.customer.so
-vendor/lib64/libmtkcam_3rdparty.mtk.so
-vendor/lib64/libmtkcam_3rdparty.so
-vendor/lib64/libmtkcam_3rdparty.vidhance.so
-vendor/lib64/libmtkcam_device3_app.so
-vendor/lib64/libmtkcam_device3_hal.so
-vendor/lib64/libmtkcam_device3_utils.so
-vendor/lib64/libmtkcam_dpe.so
-vendor/lib64/libmtkcam_featurepolicy.so
-vendor/lib64/libmtkcam_hwnode.so
-vendor/lib64/libmtkcam_hwutils.so
-vendor/lib64/libmtkcam_metadata.so
-vendor/lib64/libmtkcam_metastore.so
-vendor/lib64/libmtkcam_pipeline.so
-vendor/lib64/libmtkcam_pipelinemodel.so
-vendor/lib64/libmtkcam_pipelinemodel_capture.so
-vendor/lib64/libmtkcam_pipelinemodel_isp.so
-vendor/lib64/libmtkcam_pipelinemodel_session.so
-vendor/lib64/libmtkcam_pipelinemodel_utils.so
-vendor/lib64/libmtkcam_pipelinemodel_zsl.so
-vendor/lib64/libmtkcam_pipelinepolicy-smvr.so
-vendor/lib64/libmtkcam_pipelinepolicy.so
-vendor/lib64/libmtkcam_prerelease.so
-vendor/lib64/libmtkcam_streamutils.so
-vendor/lib64/libmtkcam_synchelper.so
-vendor/lib64/libmtkcam_tuning_utils.so
-vendor/lib64/libmi_watermark.so
-vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
-vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
-vendor/etc/camera/merlin_goldResult.bin
-vendor/etc/camera/model/bokeh_model/cache_data
-vendor/etc/camera/model/bokeh_model/model_mdl_cache
-vendor/etc/camera/model/bokeh_model/segment_model
-vendor/etc/camera/model/rt_model/score/segment_model
-vendor/etc/camera/vidhance_calibration
-vendor/bin/CFR_para2_J15_Macro_2M_v515.bin
-vendor/bin/CFR_para2_J15_UW_v504.bin
-vendor/bin/libccu_ov13b10_mipi_raw.dm
-vendor/bin/libccu_ov13b10_mipi_raw.pm
-vendor/bin/LDC_packdata_xiaomi_J15_Ofilm_3264x2448_v2_20200305.dat
-vendor/bin/LDC_packdata_xiaomi_J15_Sunny_3264x2448_v2_20200305.dat
-vendor/bin/hw/camerahalserver
 
 # Firmware
 vendor/firmware/cs35l41-dsp1-diag-z.bin
@@ -219,14 +219,14 @@ vendor/firmware/novatek_ts_g6_fw.bin
 vendor/firmware/novatek_ts_g6_mp.bin
 
 # Radio
-vendor/lib/libutinterface_custom_md.so
-vendor/lib64/libutinterface_custom_md.so
-vendor/lib/libcarrierconfig.so
-vendor/lib64/libmtk-ril.so
-vendor/lib64/librilfusion.so
-vendor/lib64/libmtkrilutils.so
-vendor/lib64/libcarrierconfig.so
 vendor/etc/init/init.md_apps.rc
+vendor/lib/libcarrierconfig.so
+vendor/lib/libutinterface_custom_md.so
+vendor/lib64/libcarrierconfig.so
+vendor/lib64/libmtk-ril.so
+vendor/lib64/libmtkrilutils.so
+vendor/lib64/librilfusion.so
+vendor/lib64/libutinterface_custom_md.so
 
 # NFC
 vendor/etc/libnfc-nci.conf
@@ -244,31 +244,31 @@ vendor/etc/sn100u_pnx_sst.pnscr
 # Graphics
 vendor/lib/libpq_cust.so
 vendor/lib/libvcodecdrv.so
-vendor/lib64/libpq_cust.so
 vendor/lib64/libacdk.so
+vendor/lib64/libpq_cust.so
 
 # GPS
-vendor/lib64/libstrongswan.so
-vendor/lib64/libcharon-ss.so
-vendor/lib64/libhydra.so
-vendor/lib64/libsimaka.so
 vendor/bin/charon
 vendor/bin/starter
 vendor/bin/stroke
+vendor/lib64/libcharon-ss.so
+vendor/lib64/libhydra.so
+vendor/lib64/libsimaka.so
+vendor/lib64/libstrongswan.so
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/odm/etc/merlinnfc/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/merlinnfc/android.hardware.secure_element@1.2-service-mediatek.rc
 
 # Sensors
-vendor/etc/pm_test_item_config.xml
-vendor/data/misc/pdc.txt
-vendor/lib/libsn100u_fw.so
-vendor/lib64/libakm.so
-vendor/lib64/lib_bsscore.so
-vendor/lib64/hw/sensors.mt6768.so
-vendor/lib64/libsensor_custom.so
 vendor/bin/nusensors
+vendor/data/misc/pdc.txt
+vendor/etc/pm_test_item_config.xml
+vendor/lib/libsn100u_fw.so
+vendor/lib64/hw/sensors.mt6768.so
+vendor/lib64/lib_bsscore.so
+vendor/lib64/libakm.so
+vendor/lib64/libsensor_custom.so
 
 # Thermal
 vendor/etc/thermal-camera.conf
@@ -276,10 +276,10 @@ vendor/etc/thermal-normal.conf
 vendor/etc/thermal-tgame.conf
 
 # NVRAM
+vendor/bin/fuelgauged_nvram
+vendor/bin/nvram_daemon
 vendor/lib/libcustom_nvram.so
 vendor/lib64/libcustom_nvram.so
-vendor/bin/nvram_daemon
-vendor/bin/fuelgauged_nvram
 
 # Xiaomi
 vendor/lib64/libalCFR.so
@@ -288,10 +288,10 @@ vendor/lib64/libst_sr.so
 vendor/lib64/libst_sr_models.so
 
 # IMS
-vendor/lib/libverno.so
-vendor/lib64/libverno.so
 vendor/bin/volte_imcb
 vendor/bin/volte_ua
+vendor/lib/libverno.so
+vendor/lib64/libverno.so
 
 # Rootdir
 vendor/bin/displayf_bin
